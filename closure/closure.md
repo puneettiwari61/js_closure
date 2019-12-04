@@ -6,6 +6,12 @@
 	 var blab = function(){
 	   alert(string);
 	 };
+
+	 function nonsense(str){
+		 	 var blab = function(){
+	   alert(string);
+	 }
+	 }
 	 ```
 
 1. In your function, `nonsense`, change the immediate call to a setTimeout so that the call to `blab` comes after 2 seconds. The `blab` function itself should stay the same as before.
@@ -48,3 +54,5 @@
 	storyOfMyLife.erase(); // ''
 
 	```
+
+
